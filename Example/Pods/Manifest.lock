@@ -1,0 +1,16 @@
+PODS:
+  - GGRouter (0.1.0)
+
+DEPENDENCIES:
+  - GGRouter (from `../`)
+
+EXTERNAL SOURCES:
+  GGRouter:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  GGRouter: 40394d661fb3eff1050ae5cf31b206285935d7a4
+
+PODFILE CHECKSUM: 9062b52eb40c6f52290b3c637b8b79ee37436aad
+
+COCOAPODS: 1.5.3
