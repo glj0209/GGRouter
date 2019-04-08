@@ -8,20 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		22D1225914446401DC766C86F8ACE240 /* Pods-GGRouter_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 53CD03656382E2E7FC0BD9979C1C8969 /* Pods-GGRouter_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3A5F1967C23D03E1253A4040C127DB8E /* GG_RouterModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EDF5DD80A74076D317970982E1DB6C6 /* GG_RouterModel.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		3C4C3275997E4BCDDF24954AC1EB571C /* GG_Router.h in Headers */ = {isa = PBXBuildFile; fileRef = 01267C2A1B9C1A0C7F01B6C8C47546B2 /* GG_Router.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		713F62A018EDEB3E8A5BEF9B63927046 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		744E85B264A755421349F2BC0910569E /* GG_Router.m in Sources */ = {isa = PBXBuildFile; fileRef = C9DB03D5C497573BBC3435B8C350829B /* GG_Router.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		78BE69F4E2A4C90464A1DB1033F2EC08 /* Pods-GGRouter_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B41F2A4C4CF937D744B6006DC115A806 /* Pods-GGRouter_Tests-dummy.m */; };
-		84B0854F7D6BCFFF4CD11B134B16FD50 /* GG_Router.m in Sources */ = {isa = PBXBuildFile; fileRef = C9DB03D5C497573BBC3435B8C350829B /* GG_Router.m */; };
 		96191FF2D2F8C2AD1D529D66D248F6E4 /* GG_RouterModel.h in Headers */ = {isa = PBXBuildFile; fileRef = C46E3CBD0FF478FB2B72F02D78E5CDE5 /* GG_RouterModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9D8ECB034FCACF5D6E99480AEE32FACD /* GGRouter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B55A12032D633C70472BAEACD6D1DCDE /* GGRouter-dummy.m */; };
 		ADEEE8511F0F8A15B87911B1DF47FA15 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
 		CAEB59A00A4B84FD80224D07B0A87B8D /* Pods-GGRouter_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E0BA49EF80CCA9312781417BDEC5F388 /* Pods-GGRouter_Example-dummy.m */; };
-		D16EA72CF8A27BB65A446D42D2ACE48E /* GG_RouterAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = C473BF75F70EEEECFA0BFF7CAB1DC719 /* GG_RouterAgent.m */; };
 		D18C6DD36EDC517230A88AC72ECB997F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		D5E0FEC82BA1DD20C62593D19C9CCBBF /* GG_RouterAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = C473BF75F70EEEECFA0BFF7CAB1DC719 /* GG_RouterAgent.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		D814FFD99928A9C9E0978815924EC7C0 /* Pods-GGRouter_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E92576F72AC717CE62F72DBC01C06B21 /* Pods-GGRouter_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE8DE4F9D5DCE37AE4017DB78A6DAB01 /* GGRouter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B55A12032D633C70472BAEACD6D1DCDE /* GGRouter-dummy.m */; };
 		F083AF7291A0ED34A93B61D5309A56D7 /* GG_RouterAgent.h in Headers */ = {isa = PBXBuildFile; fileRef = 38D4FB2FE0BBE9E8E80CE7E7609E2B1F /* GG_RouterAgent.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F15376321E0936E18079CDE773BD682E /* GGRouter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DB7009BDCB8461C8C9AF0FDD6D9252C5 /* GGRouter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FF01DD69D7A7FF3690409F51E1325BC3 /* GG_RouterModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EDF5DD80A74076D317970982E1DB6C6 /* GG_RouterModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -299,7 +299,7 @@
 			buildConfigurationList = A3D1B4D3459B581F18F06116B306253E /* Build configuration list for PBXNativeTarget "GGRouter" */;
 			buildPhases = (
 				F64BE40111261ED6673733DBAA2CE278 /* Headers */,
-				12598AE8AF5C9F834D8160B59B37F7C1 /* Sources */,
+				DAD06AB80319C89FBF1FDC1C9B74A35E /* Sources */,
 				1BC5690AE2D8E00B2AA7605CF1867AFF /* Frameworks */,
 				6A324CFAF6E31D441727AFD9BF5BEC5B /* Resources */,
 			);
@@ -384,22 +384,22 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		12598AE8AF5C9F834D8160B59B37F7C1 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				84B0854F7D6BCFFF4CD11B134B16FD50 /* GG_Router.m in Sources */,
-				D16EA72CF8A27BB65A446D42D2ACE48E /* GG_RouterAgent.m in Sources */,
-				FF01DD69D7A7FF3690409F51E1325BC3 /* GG_RouterModel.m in Sources */,
-				9D8ECB034FCACF5D6E99480AEE32FACD /* GGRouter-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		BE990B8755728FFE2537DB00508B406E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				CAEB59A00A4B84FD80224D07B0A87B8D /* Pods-GGRouter_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAD06AB80319C89FBF1FDC1C9B74A35E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				744E85B264A755421349F2BC0910569E /* GG_Router.m in Sources */,
+				D5E0FEC82BA1DD20C62593D19C9CCBBF /* GG_RouterAgent.m in Sources */,
+				3A5F1967C23D03E1253A4040C127DB8E /* GG_RouterModel.m in Sources */,
+				DE8DE4F9D5DCE37AE4017DB78A6DAB01 /* GGRouter-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

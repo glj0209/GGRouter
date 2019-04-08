@@ -1,5 +1,5 @@
 PODS:
-  - GGRouter (0.1.0)
+  - GGRouter (0.0.1)
 
 DEPENDENCIES:
   - GGRouter (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  GGRouter: 40394d661fb3eff1050ae5cf31b206285935d7a4
+  GGRouter: 14ee55a838c7b48b42d270ccfa616970700af20e
 
 PODFILE CHECKSUM: 9062b52eb40c6f52290b3c637b8b79ee37436aad
 
